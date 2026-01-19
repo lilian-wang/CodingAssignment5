@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+[class*="col"] {
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+body {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Nunito", sans-serif;
+    color: #2f3e46;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+h1, 
+h2, 
+h3 {
+    font-family: "Abril Fatface", serif;
+    color: #4a7c59;
+    text-shadow: 1px 1px 2px #6b6b6b;
+    margin-top: 25px;
+}
+
+p {
+    color: #2f3e46;
+}
+
+figure,
+figcaption {
+    color: #2f3e46;
+    text-align: center;
+    margin: 20px 0;
+}
+
+ul,
+ol,
+li {
+    color: #3a7d8c;
+}
+
+hr {
+    border: 2px solid rgba(0, 0, 0, 0.15);
+    margin: 40px 0;
+}
+
+input {
+    padding: 6px;
+    border: 2px solid #7bbacf;
+    border-radius: 5px;
+    color: #2f3a45;
+    background-color: #f5fcff;
+}
+
+input::placeholder {
+    color: #4a7c59;
+}
+
+fieldset {
+    border: 2px solid #2a9d8f;
+    border-radius: 8px;
+    padding: 10px;
+    width: 280px;
+    margin-top: 10px;
+    background-color: #e9fffb;
+    color: #1f2d2f;
+}
+
+legend {
+    color: #1f2d2f;
+    font-weight: bold;
+}
+
+.rate {
+    color: #0f3b3a;
+    text-shadow: 1px 1px 2px #005555;
+    margin-top: 25px;
+}
+
+.footer-note {
+    text-align: right;
+    padding-right: 20px;
+    font-style: italic;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.highlight {
+    color: #0a3a40;
+    font-weight: bold;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.menu li {
+    margin: 0;
+    padding: 0;
+}
+
+.equipment {
+    padding-left: 80px;
+}
+
+.full {
+    width: 100%;
+}
+
+.narrow {
+    width: 22%;
+}
+
+.wide {
+    width: 39%;
+}
